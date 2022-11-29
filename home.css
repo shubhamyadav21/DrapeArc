@@ -1,0 +1,353 @@
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+
+  
+    /*this is for content of navbaar from home to winners to take it on right side*/
+  
+  #navbarSupportedContent{
+    margin-left: 25%;
+  }
+  
+                      /*this is navbaar*/
+   .navbar{
+     width: 100%;
+    position: fixed;
+    z-index: 2;
+    font-weight: bolder;
+          
+    }
+  
+    
+  
+    .navbar-brand{
+      font-family: 'Lucida Handwriting';
+        
+    }
+
+    .btn:hover {
+    color: rgb(12, 11, 11);
+    background-color: rgb(196, 152, 87);
+    }
+
+
+    .navbar .nav-item:hover {
+    color: rgb(12, 11, 11);
+    background-color: rgb(196, 152, 87);
+    }
+
+    .dropdown-item:hover{
+      background-color: rgb(196, 152, 87);
+
+    }
+
+
+
+
+  /****************** contact container  *******************/
+
+
+#contact{
+    background-attachment: fixed;
+    
+    
+  }
+  .contact-heading{
+    padding: 40px;
+   
+  }
+
+  .contact-address{
+    box-sizing: border-box;
+    border: 2px solid rgb(134, 134, 134);
+    margin: 25px;
+    margin-bottom: 50px;
+    padding: 0.5rem;
+    height: 26rem;
+    background-attachment: fixed;
+  
+  }
+ 
+ #contact .star{
+ margin: 5px;
+ }
+ 
+ /*****  totop ************/
+ 
+  #toTop {
+   scroll-behavior: smooth;
+   width: 40px;
+   height: 40px;
+   display: none; /* Hidden by default */
+   position: fixed; /* Fixed/sticky position */
+   bottom: 35px; /* Place the button at the bottom of the page */
+   right: 20px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   background-color:rgb(26, 24, 24); /* Set a background color */
+   color: white; /* Text color */
+   cursor: pointer; /* Add a mouse pointer on hover */
+   padding: 10px 12px ; /* Some padding */
+   border-radius: 5px; /* Rounded corners */
+   font-size: 15px; /* Increase font size */
+    
+ }
+ 
+ #toTop:hover {
+   background-color: rgb(196, 152, 87); /* Add a color background on hover */
+   
+ }
+ 
+ /****  only for carousel to decrease the bottom margin */
+ @media only screen and (min-width: 768px) { 
+   .carousel-item img{
+     width: 100%;
+     height: 550px;
+   }
+  }  
+
+
+
+
+/*****        services      **/
+
+
+
+
+  
+
+  .service_container {
+    box-shadow: 0 0 15px 5px rgb(10, 10, 10);
+    padding: 45px 15px;
+    margin: 0 25px;
+  }
+
+  .box {
+    margin-top: 45px;
+
+  }
+
+    .detail-box {
+      margin-top: 15px;
+  
+    }
+
+    .detail-box h5{
+      font-weight: bold;
+      text-decoration: uppercase;
+    }
+
+
+    .service_container a{
+      text-decoration: solid;
+      font-weight: bold;
+      color: black;
+    }
+    .service_container hr{
+      height: 7px;
+      width: 12rem;
+      color: rgb(8, 43, 241);
+    }
+
+.service_container i:hover{
+  color:  rgb(196, 152, 87);
+  font-weight: bolder;
+}
+
+
+.service_container a:hover{
+  color:  rgb(196, 152, 87);
+  font-weight: bolder;
+}
+
+/***** end service section ***/
+
+/*******about section ****/
+
+.about_section .row {
+
+  align-items: center;
+  margin: 5vh;
+  
+}
+
+.about_section .row p{
+  text-align: justify;
+}
+  .img-box {
+    position: relative;
+  }
+
+   .img-box img {
+      max-width: 100%;
+      position: relative;
+      z-index: -2;
+      margin: 5vh;
+      box-shadow: 0 0 3px 5px rgb(65, 61, 61);
+      padding: 5px 5px;
+      border-radius: 8%;
+    }
+
+    .about_section .detail-box hr{
+      height: 7px;
+      width: 20vh;
+      color: rgb(8, 43, 241);
+    }
+
+    .about_section .detail-box a {
+      color:  black;
+     text-decoration: solid;
+    }
+  
+    .about_section .detail-box a:hover{
+      color:  rgb(0, 0, 0);
+     text-decoration: solid;
+     background-color: rgb(196, 152, 87);
+    }
+/**** other services  ***/
+
+#other-services hr{
+  height: 7px;
+  width: 80%;
+  color: rgb(8, 43, 241);
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#other-services {
+  margin-top: 5rem;
+  margin-bottom: 10px;
+}
+
+#other-services .other h3{
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: bolder;
+  
+}
+
+#other-services .card{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+   box-shadow: 0 0 7px 5px rgb(48, 46, 46);
+   padding: 5px 5px;
+   margin: 20px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******** project ******/
+
+.single-portfolio {
+    border-radius: 5px;
+    overflow: hidden;
+    color: rgb(238, 236, 236); }
+
+    .single-portfolio > a {
+      overflow: hidden;
+      position: relative;
+      display: block; }
+
+      .single-portfolio > a:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        height: 100%;
+        z-index: 2;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        background: rgba(0, 0, 0, 0.5); }
+
+      .single-portfolio > a .contents {
+        margin-top: 20px;
+        visibility: visible;
+        margin-top: 20px;
+        z-index: 3; }
+
+        .single-portfolio > a .contents h3, .single-portfolio > a .contents .h3 {
+          font-size: 16px;
+          font-weight: bold;
+          color: #fff; }
+
+      .single-portfolio > a img {
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
+
+      .single-portfolio > a:hover:before {
+        visibility: visible;
+        opacity: 1; }
+
+      .single-portfolio > a:hover img {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05); }
+
+      .single-portfolio > a:hover .contents {
+        margin-top: 0px;
+        opacity: 1;
+        visibility: visible; }
+
+    .single-portfolio .contents {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+
+      .single-portfolio .contents h3, .single-portfolio .contents .h3 {
+        color: rgb(8, 8, 8); }
+        
+      .single-portfolio .contents .cat {
+        color: rgba(255, 255, 255, 0.5); }
+
+
+    .section hr{
+        height: 7px;
+        width: 12rem;
+        color: rgb(8, 43, 241);
+        }
+
+  /*************footer**************/
+.footer{
+    color: #fff;
+    text-align: center;
+  
+  }
+   
+  /*******/
